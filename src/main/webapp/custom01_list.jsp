@@ -14,7 +14,6 @@
 <% 
 MemberDao dao = new MemberDao();
 ArrayList<MemberVO> lists = dao.read();
-
 %>
 <table border="1">
 	<tr>
